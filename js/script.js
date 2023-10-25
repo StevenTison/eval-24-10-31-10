@@ -228,6 +228,29 @@ form.addEventListener('input', debounce(function (e) {
     }
 }));
 
+//*****************************************************************************//
+//* ajout des événements pour afficher ou masquer les forms register ou login *//
+//*****************************************************************************//
+
+let btn1 = document.querySelector(".regLogBtn1");
+let btn2 = document.querySelector(".regLogBtn2");
+let formReg = document.querySelector(".register");
+let formLog = document.querySelector(".login");
+
+btn1.addEventListener('click', function (e) {
+    formReg.classList.toggle("hidden");
+    formReg.classList.toggle("block");
+    formLog.classList.add("hidden");
+    formLog.classList.remove("block");
+})
+
+btn2.addEventListener('click', function (e) {
+    formLog.classList.toggle("hidden");
+    formLog.classList.toggle("block");
+    formReg.classList.add("hidden");
+    formReg.classList.remove("block");
+});
+
 //***********************************************************//
 //*************Javascript pour la modal de Login*************//
 //***********************************************************//
@@ -236,7 +259,7 @@ let monIdentifiant = localStorage.getItem("monIdentifiant");
 let objet = JSON.parse(monIdentifiant);
 
 const emailLog = document.querySelector("#emailLog");
-email.value = objet["mail"];
+emailLog.value = objet["mail"];
 
 const mdp = document.querySelector("#passwordLog");
 mdp.value = objet["mdp"];
@@ -366,26 +389,3 @@ log.addEventListener('submit', function (e) {
         e.preventDefault();
     }
 }, true);
-
-//*****************************************************************************//
-//* ajout des événements pour afficher ou masquer les forms register ou login *//
-//*****************************************************************************//
-
-let btn1 = document.querySelector(".regLogBtn1");
-let btn2 = document.querySelector(".regLogBtn2");
-let formReg = document.querySelector(".register");
-let formLog = document.querySelector(".login");
-
-btn1.addEventListener('click', function (e) {
-    formReg.classList.toggle("hidden");
-    formReg.classList.toggle("block");
-    formLog.classList.add("hidden");
-    formLog.classList.remove("block");
-})
-
-btn2.addEventListener('click', function (e) {
-    formLog.classList.toggle("hidden");
-    formLog.classList.toggle("block");
-    formReg.classList.add("hidden");
-    formReg.classList.remove("block");
-});
