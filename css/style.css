@@ -30,7 +30,6 @@ body {
 .titre h1 {
     font-size: 1.5em;
     text-align: center;
-    opacity: 1;
 }
 
 .regLog {
@@ -47,7 +46,6 @@ body {
     padding: 1em;
     border-radius: 20px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
-    opacity: 1;
 }
 
 .regLogBtn1:hover, .regLogBtn2:hover {

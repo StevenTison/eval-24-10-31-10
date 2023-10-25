@@ -228,9 +228,9 @@ form.addEventListener('input', debounce(function (e) {
     }
 }));
 
-//
-// Javascript pour la modal de Login
-//
+//***********************************************************//
+//*************Javascript pour la modal de Login*************//
+//***********************************************************//
 
 let monIdentifiant = localStorage.getItem("monIdentifiant");
 let objet = JSON.parse(monIdentifiant);
@@ -367,9 +367,9 @@ log.addEventListener('submit', function (e) {
     }
 }, true);
 
-//
-// ajout des événements pour afficher ou masquer les forms register ou login
-//
+//*****************************************************************************//
+//* ajout des événements pour afficher ou masquer les forms register ou login *//
+//*****************************************************************************//
 
 let btn1 = document.querySelector(".regLogBtn1");
 let btn2 = document.querySelector(".regLogBtn2");
