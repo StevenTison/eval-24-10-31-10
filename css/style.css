@@ -15,6 +15,7 @@ body {
     min-height: 100vh;
     background-image: url(/img/geometry-1023846_1920\ 1.svg);
     background-size: cover;
+    background-position: center;
 }
 
 .titre {
@@ -127,4 +128,14 @@ body {
 .btn:hover {
     background: #3276B1;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+    .container {
+        width: 325px;
+    }
+
+    .titre h1 {
+        font-size: 20px;
+    }
 }
