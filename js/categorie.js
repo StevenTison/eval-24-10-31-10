@@ -117,4 +117,4 @@ const navBar = document.querySelector(".navBar");
 
 nav.addEventListener('click', function (e) {
     navBar.classList.toggle("right");
-})
+});
