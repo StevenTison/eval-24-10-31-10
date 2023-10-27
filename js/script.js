@@ -185,6 +185,7 @@ form.addEventListener('submit', function (e) {
         };
 
         localStorage.setItem("monIdentifiant", JSON.stringify(monIdentifiant));
+        alert("Vous vous êtes bien enregistré");
     } else {
         e.preventDefault();
     }

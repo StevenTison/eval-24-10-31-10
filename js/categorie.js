@@ -75,7 +75,7 @@ envoi.addEventListener('click', function (e) {
         rowTable.append(cellTable1);
         cellTable1.append(link);
         link.append(addCellTitle);
-        link.href = "";
+        link.href = "/html/sujet.html";
         link.classList.add("test");
         rowTable.append(cellTable2);
         cellTable2.append(dateNum);
@@ -85,15 +85,18 @@ envoi.addEventListener('click', function (e) {
         localStorage.setItem("monSujet" + i, JSON.stringify(monSujet));
         i++;
 
-        const lien = document.getElementsByClassName(".test");
-
         titre.value = "";
         message.value = "";
 
-        lien.addEventListener('click', function (e) {
+        // On rajoute dans le localStorage les informations en fonction du lien cliqué
+
+        link.addEventListener('click', function (e) {
             let monLien = {
                 titre: monSujet["titre"],
-                message: monSujet["message"]
+                message: monSujet["message"],
+                date: dateNum,
+                nom: objet["nom"],
+                prenom: objet["prenom"]
             };
 
             localStorage.setItem("monLien", JSON.stringify(monLien));
