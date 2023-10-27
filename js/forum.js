@@ -36,7 +36,13 @@ heure.append(addHeure);
 
 const minute = document.querySelector(".minute");
 const addMinute = document.createTextNode(objetDate["minute"]);
-minute.append(addMinute);
+const zero = "0";
+
+if (objetDate["minute"] <= 9) {
+    minute.append(zero + objetDate["minute"]);
+} else {
+    minute.append(addMinute);
+}
 
 // Evénement click sur les boutons
 
@@ -53,5 +59,5 @@ btn2.addEventListener('click', function (e) {
 })
 
 btn3.addEventListener('click', function (e) {
-    window.location.href = "/html/cours.html"
+    window.location.href = "/html/installation.html"
 })

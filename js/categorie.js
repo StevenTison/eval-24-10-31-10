@@ -36,7 +36,13 @@ heure.append(addHeure);
 
 const minute = document.querySelector(".minute");
 const addMinute = document.createTextNode(objetDate["minute"]);
-minute.append(addMinute);
+const zero = "0";
+
+if (objetDate["minute"] <= 9) {
+    minute.append(zero + objetDate["minute"]);
+} else {
+    minute.append(addMinute);
+}
 
 // On ajoute des sujets
 
@@ -46,13 +52,14 @@ const envoi = document.querySelector(".btn");
 const table = document.querySelector("tbody");
 let i = 1;
 
+
 envoi.addEventListener('click', function (e) {
     let monSujet = {
         titre: titre.value,
         message: message.value
     }
 
-    if (titre.value === "") {
+    if (titre.value === "" || message.value === "") {
         e.preventDefault();
     } else {
         let date = new Date();
@@ -67,7 +74,6 @@ envoi.addEventListener('click', function (e) {
         const cellTable2 = document.createElement("td");
         const cellTable3 = document.createElement("td");
         const addCellTitle = document.createTextNode(monSujet["titre"]);
-
 
         table.append(rowTable);
         rowTable.append(titleTable);
@@ -103,3 +109,12 @@ envoi.addEventListener('click', function (e) {
         })
     }
 });
+
+// JS pour la navbar
+
+const nav = document.querySelector(".navAff");
+const navBar = document.querySelector(".navBar");
+
+nav.addEventListener('click', function (e) {
+    navBar.classList.toggle("right");
+})

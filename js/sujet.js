@@ -39,13 +39,20 @@ heure.append(addHeure);
 
 const minute = document.querySelector(".minute");
 const addMinute = document.createTextNode(objetDate["minute"]);
-minute.append(addMinute);
+const zero = "0";
+
+if (objetDate["minute"] <= 9) {
+    minute.append(zero + objetDate["minute"]);
+} else {
+    minute.append(addMinute);
+}
 
 // On crée le contenu de la page uniquement avec du DOM
 
 document.title = objetLien["titre"];
 
 const main = document.createElement("main");
+const titre = document.createElement("h1");
 const divMain = document.createElement("div");
 const divContenu = document.createElement("div");
 const divUser = document.createElement("div");
@@ -57,6 +64,9 @@ const textarea = document.createElement("textarea");
 const btn = document.createElement("input");
 
 document.body.append(main);
+main.append(titre);
+let titrePage = document.createTextNode(objetLien["titre"]);
+titre.append(titrePage);
 main.append(divMain);
 divMain.classList.add("divMain");
 divMain.append(divContenu);
@@ -116,5 +126,13 @@ btn.addEventListener('click', function (e) {
         pMessageAdd.append(addMessage);
         textarea.value = "";
     }
+});
 
+// JS pour la navbar
+
+const nav = document.querySelector(".navAff");
+const navBar = document.querySelector(".navBar");
+
+nav.addEventListener('click', function (e) {
+    navBar.classList.toggle("right");
 });
