@@ -1,10 +1,10 @@
 # **Sommaire:**
 
-- ## [Introduction](https://github.com/StevenTison/eval-24-10-31-10 "Introduction")  
-- ## [Le maquettage](https://github.com/StevenTison/eval-24-10-31-10 "Le maquettage")  
-- ## [Les langages](https://github.com/StevenTison/eval-24-10-31-10 "Les langages")  
-- ## [Les fontionnalités](https://github.com/StevenTison/eval-24-10-31-10 "Les fonctionnalités")  
-- ## [Comment récupérer le projet](https://github.com/StevenTison/eval-24-10-31-10 "Comment récupérer le projet")  
+- ## [Introduction](https://github.com/StevenTison/eval-24-10-31-10#introduction-1 "Introduction")  
+- ## [Le maquettage](https://github.com/StevenTison/eval-24-10-31-10#le-maquettage-1 "Le maquettage")  
+- ## [Les langages](https://github.com/StevenTison/eval-24-10-31-10#les-langages-1 "Les langages")  
+- ## [Les fontionnalités](https://github.com/StevenTison/eval-24-10-31-10#les-fonctionnalités-1 "Les fonctionnalités")  
+- ## [Comment récupérer le projet](https://github.com/StevenTison/eval-24-10-31-10#comment-récupérer-le-projet-1 "Comment récupérer le projet")  
 
 ## Introduction:
 
@@ -31,7 +31,7 @@ Les langages utilisés pour réaliser ce projet sont:
 [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 
 ---
-## Les fonctionnalitées:
+## Les fonctionnalités:
 
 Sur ce projet, vous pourrez retrouver différentes fonctionnalités comme :
 
