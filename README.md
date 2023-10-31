@@ -58,11 +58,11 @@ Si vous ne connaissez pas Git, vous pouvez consulter ce [lien](https://openclass
 ---
 
 # **Summary :**
-- ## [Introduction](https://github.com/StevenTison/eval-24-10-31-10#introduction-1 "Introduction")  
-- ## [Model](https://github.com/StevenTison/eval-24-10-31-10#le-maquettage-1 "Le maquettage")  
-- ## [Languages](https://github.com/StevenTison/eval-24-10-31-10#les-langages-1 "Les langages")  
-- ## [Features](https://github.com/StevenTison/eval-24-10-31-10#les-fonctionnalités "Les fonctionnalités")  
-- ## [How to git](https://github.com/StevenTison/eval-24-10-31-10#comment-récupérer-le-projet-1 "Comment récupérer le projet")
+- ## [Introduction](https://github.com/StevenTison/eval-24-10-31-10#introduction- "Introduction")  
+- ## [Model](https://github.com/StevenTison/eval-24-10-31-10#model- "Le maquettage")  
+- ## [Languages](https://github.com/StevenTison/eval-24-10-31-10#languages- "Les langages")  
+- ## [Features](https://github.com/StevenTison/eval-24-10-31-10#features- "Les fonctionnalités")  
+- ## [How to git](https://github.com/StevenTison/eval-24-10-31-10#how-to-git- "Comment récupérer le projet")
 
 ## Introduction :  
 
