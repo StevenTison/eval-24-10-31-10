@@ -163,3 +163,20 @@ form textarea:focus {
     width: auto;
     margin: 0;
 }
+
+@media only screen and (max-width: 1000px) {
+    table tbody tr td:nth-child(2) {
+        word-break: break-all;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+
+    form {
+        font-size: 14px;
+    }
+}

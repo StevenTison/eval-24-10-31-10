@@ -54,7 +54,7 @@ h1 {
     border: 2px solid #3276B1;
     width: 35%;
     border-radius: 30px;
-    word-break: keep-all;
+    word-break: break-all;
     margin-bottom: 1em;
 }
 
@@ -193,4 +193,17 @@ textarea::placeholder {
     background-color: #34495E;
     cursor: pointer;
     border-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    .divMain {
+        font-size: 14px;
+    }
+
+    .pDate {font-size: 10px;
+    }
 }
