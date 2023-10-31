@@ -6,19 +6,19 @@
 - ## [Les fontionnalités](https://github.com/StevenTison/eval-24-10-31-10#les-fonctionnalités "Les fonctionnalités")  
 - ## [Comment récupérer le projet](https://github.com/StevenTison/eval-24-10-31-10#comment-récupérer-le-projet-1 "Comment récupérer le projet")  
 
-## Introduction:
+## Introduction :
 
 Voici le projet que j'ai fais pour mon évaluation du 24/10/23 au 31/10/23.
 
 Dans ce projet vous pourrez retrouver un maquettage fait sur Figma ainsi que les languagues et référentiels utilisés pour le réaliser.
 
-## Le maquettage:
+## Le maquettage :
 
-Le logiciel utilisé pour réaliser la maquette du projet est Figma.
+Le logiciel utilisé pour réaliser la maquette du projet est [Figma](https://figma.com).
 
 Voici le [lien](https://www.figma.com/file/q0rcmJvKTFCvy21sffIhhh/Forum-Eval?type=design&node-id=0-1&mode=design&t=NUYekf0XKeHugArI-0) pour accéder à la maquette
 
-## Les langages:
+## Les langages :
 
 Les langages utilisés pour réaliser ce projet sont:
 
@@ -28,7 +28,7 @@ Les langages utilisés pour réaliser ce projet sont:
 
 [JavaScript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 
-## Les fonctionnalités:
+## Les fonctionnalités :
 
 Sur ce projet, vous pourrez retrouver différentes fonctionnalités comme :
 
@@ -45,7 +45,7 @@ l'heure et la date à laquelle vous vous êtes connecté.
 
 -Une barre de navigation cachée et déployable via un bouton cliquable.
 
-## Comment récupérer le projet:
+## Comment récupérer le projet :
 
 Pour récupérer le projet il vous suffit d'utiliser la commande suivante:
 
@@ -59,10 +59,10 @@ Si vous ne connaissez pas Git, vous pouvez consulter ce [lien](https://openclass
 
 # **Summary :**
 - ## [Introduction](https://github.com/StevenTison/eval-24-10-31-10#introduction- "Introduction")  
-- ## [Model](https://github.com/StevenTison/eval-24-10-31-10#model- "Le maquettage")  
-- ## [Languages](https://github.com/StevenTison/eval-24-10-31-10#languages- "Les langages")  
-- ## [Features](https://github.com/StevenTison/eval-24-10-31-10#features- "Les fonctionnalités")  
-- ## [How to git](https://github.com/StevenTison/eval-24-10-31-10#how-to-git- "Comment récupérer le projet")
+- ## [Model](https://github.com/StevenTison/eval-24-10-31-10#model- "Model")  
+- ## [Languages](https://github.com/StevenTison/eval-24-10-31-10#languages- "Languages")  
+- ## [Features](https://github.com/StevenTison/eval-24-10-31-10#features- "Features")  
+- ## [How to git](https://github.com/StevenTison/eval-24-10-31-10#how-to-git- "How to Git")
 
 ## Introduction :  
 
@@ -73,7 +73,7 @@ In this project you'll find a model made, as well as the languages and reference
 
 ## Model :
 
-The software used to create the model is Figma.  
+The software used to create the model is [Figma](https://figma.com).  
 
 Here's the [link](https://www.figma.com/file/q0rcmJvKTFCvy21sffIhhh/Forum-Eval?type=design&node-id=0-1&mode=design&t=NUYekf0XKeHugArI-0) to access the model.  
 
