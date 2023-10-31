@@ -101,7 +101,7 @@ On this project, you'ill find various functionalities such as :
 
 -The ability to create forum topics, as well as the ability to take data you've written and create topics of your own.  
 
--The ability to replay to topics already created.  
+-The ability to reply to topics already created.  
 
 -A hidden navigation bar deployable via a clickable button.
 
